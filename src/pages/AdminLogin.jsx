@@ -1,7 +1,7 @@
 // src/pages/AdminLogin.jsx
 import { useState } from 'react';
 
-const ADMIN_PIN = '3600';
+const ADMIN_PIN = 'cnv34unq';
 
 export default function AdminLogin({ onLogin }) {
   const [pin, setPin] = useState('');
@@ -22,7 +22,7 @@ export default function AdminLogin({ onLogin }) {
     <div className="login-screen">
       <div className="card card-lg login-card">
         <div className="login-logo">WASPE</div>
-        <p className="login-sub">Admin-panel — Kun for Ash & Nicklas</p>
+        <p className="login-sub">Admin-panel</p>
         <form onSubmit={handleSubmit}>
           <input
             type="password"
